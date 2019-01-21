@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" media="screen" href="layout1.css" />
+    <meta charset="utf-8">
+    <title>SMP Negeri 4 Kepanjen</title>
+    <style media="screen">
+      * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header */
+.header {
+  padding: 25px;
+  text-align: center;
+  background-image: url("awan.jpg");
+}
+
+.header h1 {
+  font-size: 50px;
+  color: navy;
+}
+
+.header p {
+  font-size: 35px;
+  font-family: magneto;
+  color: navy;
+}
+
+/* top navigation */
+.topnav {
+  overflow: hidden;
+  background-color: orange;
+}
+
+/* topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+}
+.fakeimg1 {
+  background-color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: navy;
+  margin-top: 20px;
+}
+.footer h1{
+  font-family: monospace;
+  font-size: 40;
+  color: orange;
+}
+.footer h3{
+  font-family: monospace;
+  font-size: 20;
+  color: white;
+}
+
+/* Responsive layout  */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+div.penghargaan{
+  width: 100%;
+  height: 450px;
+  background: url("spng.jpg") no-repeat center;
+  background-size: cover;
+  float: left;
+  margin-top: 50px;
+}
+
+div.penghargaan .gelap{
+width: 100%;
+height: 100%;
+background:linear-gradient(to right, #000, #000, transparent);
+float: left;
+opacity: 0.6;
+position: relative;
+}
+
+div.penghargaan .left{
+width: 50%;
+text-align: right;
+border-right: 5px solid red;
+padding-right: 20px;
+position: absolute;
+margin-top: 150px;
+color: white;
+}
+div.penghargaan .right{
+width: 50%;
+text-align: left;
+border-right: 5px solid red;
+padding-right: 20px;
+position: absolute;
+margin-top: 150px;
+color: white;
+}
+
+.bgimage{ background-image: url("awan.jpg"); }
+
+    </style>
+  </head>
+  <body>
+    <div class="header">
+            <img src="spanega.png" width="160" height="160" align="left" alt="Spanega">
+            <img src="kab.png" width="160" height="160" align="right" alt="Kab. Malang">
+            <h1>SMP Negeri 4 Kepanjen</h1>
+            <p>Welcome To Dhatyanaka</p>
+        </div>
+
+        <div class="topnav">
+            <a href="file:///D:/SEKOLAH/RPL/Layout.html">Beranda</a>
+            <a href="file:///D:/SEKOLAH/RPL/profil.html">Tentang Sekolah</a>
+            <a href="file:///D:/SEKOLAH/RPL/kesiswaan.html">Kesiswaan</a>
+            <a href="file:///D:/SEKOLAH/RPL/prestasi.html">Prestasi</a>
+            <a href="file:///D:/SEKOLAH/RPL/informasi.html">Informasi</a>
+            <a href="file:///D:/SEKOLAH/RPL/galeri.html">Galeri</a>
+            <a href="#">Kontak</a>
+            <a href="#">Terkait</a>
+            <a href="#" style="float:right">SignUp</a>
+        </div>
+
+        <marquee bgcolor="grey" behavior="scroll" direction="right" scrollamount="8"> <font face="Times New Rowman"
+    color="white" > &copy; JUJUR - UNGGUL - AMAN DISIPLIN RELIGIUS - ANDAL IT</font>
+    </marquee>
+    		<br/><br/>
+
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="card">
+                    <h2>SMPN 4 Kepanjen</h2>
+                    <h5>Malang, Jan 20, 2019</h5>
+                    <div class="fakeimg">
+                      <img src="depan.jpg" width="855" height="200" padding="20" alt="">
+                    </div>
+                    <p>SMPN 4 Kepanjen adalah satu-satunya SMP berpredikat Sekolah Rujukan di wilayah Kabupaten Malang. Berdiri sejak tahun 1955, sekolah kami meraih predikat Sekolah Standar Nasional sejak tahun 2005 dan meraih peringkat Akreditasi A dari Badan Akreditasi Nasional.</p>
+                </div>
+                <div class="card">
+                    <h2>Sekolah Rujukan</h2>
+                    <h5>Malang, Jan 20, 2019</h5>
+                    <div class="fakeimg">
+                      <img src="rujukan.jpg" width="855" height="200" padding="20" alt="">
+                    </div>
+                    <p>SMP Negeri 4 Kepanjen merupakan satu-satunya sekolah rujukan yang ada di Kabupaten Malang. Dulunya SMP Negeri 4 Kepanjen merupakan sekolah RSBI yaitu rujukan sekolah berstandar internasional.</p>
+                </div>
+            </div>
+            <div class="rightcolumn">
+                <div class="card">
+                    <h2 align="center">Testimoni Alumni</h2>
+                    <div class="fakeimg" align="center">
+                      <img src="alumni.jpg" width="95" height="95" padding="20" align="center" alt="">
+                    </div>
+                    <h3 align="center">Rio Anggarawinata</h3>
+                    <p align="center">Mahasiswa Kedokteran</p>
+                </div>
+                <div class="card">
+                    <h3>Popular Post</h3>
+                    <div class="fakeimg1">
+                        <a href="file:///D:/SEKOLAH/RPL/pameran.html">Gelar Pameran Lukisan, SMPN 4 Kepanjen Terapkan Tugas Proyek Bidang Seni Lukis</a>
+                    </div>
+                    <div class="fakeimg1">
+                        <a href="file:///D:/SEKOLAH/RPL/showcase.html">Produk Unggulan Showcase Cermin Kualitas Sekolah Rujukan Di Jawa Timur</a>
+                    </div>
+                    <div class="fakeimg1">
+                        <a href="file:///D:/SEKOLAH/RPL/haji.html">Dahsyatnya Persatuan Dalam Ibadah Haji Dan Umroh</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4>Follow Me</h4>
+                    <ul>
+                      <li><a href="https://www.instagram.com/nesta.alsya/?hl=id">@nesta.alsya</a></li>
+                      <li><a href="https://www.instagram.com/naesteu_/?hl=id">@naesteu_</a></li>
+                      <li><a href="https://www.instagram.com/spaneg4/?hl=id">@spaneg4</a></li>
+                      <li><a href="https://www.instagram.com/smktelkommalang/?hl=id">@smktelkommalang</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="penghargaan">
+          <div class="gelap">
+            </div>
+            <div class="left">
+              <h2>Meraih Penghargaan</h2>
+              <h1>Tata Kelola Sekolah Terbaik</h1>
+              <h3>Tahun 2016-2017</h3>
+              </div>
+            
+          </div>
+          <br>
+          <br>
+          <br><br><br>
+        <div class="footer">
+          <img src="logo.png" width="160" height="90" align="left" alt="Spanega">
+          <img src="stiki.png" width="160" height="90" align="right" alt="Kab. Malang">
+            <h1>DHATYANAKA</h1>
+            <h3>DHARMA ACITYA BAYANAKA</h3>
+        </div>
+		<marquee bgcolor="Red" behavior="scroll" direction="left" scrollamount="8"> <font face="Times New Rowman"
+color="white" > &copy; Danza Sasta Vanesta Alsyaluna - 10 - Rekayasa Perangkat Lunak - SMK Telkom Malang</font>
+</marquee>
+		<br/><br/>
+
+  </body>
+</html>
